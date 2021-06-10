@@ -15,6 +15,6 @@ plt.plot(x,t,color='red',marker='.',label='五次余弦')
 plt.xlabel('时间',fontproperties=kaiti)
 plt.ylabel('温度',fontproperties=kaiti)
 plt.legend(prop=kaiti)
-plt.title('许睿绘制的图',fontproperties=kaiti)
+plt.title('绘制的图',fontproperties=kaiti)
 plt.show()
 
