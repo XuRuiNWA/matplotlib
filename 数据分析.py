@@ -7,8 +7,8 @@ height_1=[173,189,178,167,176]
 weight_1=[52,49,46,51,49]
 plt.figure(figsize=(10,5))
 bar_width = 0.5
-index_weight_1= np.arange(len(name))  # 男生条形图的横坐标
-index_height_1 =index_weight_1 + bar_width  # 女生条形图的横坐标
+index_weight_1= np.arange(len(name))  
+index_height_1 =index_weight_1 + bar_width  
 
 rect1=plt.bar(index_weight_1,height_1, alpha=0.7,width = bar_width,  facecolor = 'purple', edgecolor = 'b', lw=1, label='身高')
 recr2=plt.bar(index_height_1 ,weight_1, alpha=0.7,width = bar_width,  facecolor = 'lightblue', edgecolor = 'b', lw=1, label='体重')
